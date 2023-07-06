@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CSharpIntroduction.DataType/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CSharpIntroduction.DataType.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSharpIntroduction.DataType.dll": {}
+        }
+      },
+      "CSharpIntroduction.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CSharpIntroduction.DataType": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CSharpIntroduction.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSharpIntroduction.Logic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpIntroduction.DataType/1.0.0": {
+      "type": "project",
+      "path": "../CSharpIntroduction.DataType/CSharpIntroduction.DataType.csproj",
+      "msbuildProject": "../CSharpIntroduction.DataType/CSharpIntroduction.DataType.csproj"
+    },
+    "CSharpIntroduction.Logic/1.0.0": {
+      "type": "project",
+      "path": "../CSharpIntroduction.Logic/CSharpIntroduction.Logic.csproj",
+      "msbuildProject": "../CSharpIntroduction.Logic/CSharpIntroduction.Logic.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CSharpIntroduction.Logic >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nicoara\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\SummerPracticeWorshop\\CSharpIntroduction\\CSharpIntroduction.csproj",
+      "projectName": "CSharpIntroduction",
+      "projectPath": "D:\\SummerPracticeWorshop\\CSharpIntroduction\\CSharpIntroduction.csproj",
+      "packagesPath": "C:\\Users\\nicoara\\.nuget\\packages\\",
+      "outputPath": "D:\\SummerPracticeWorshop\\CSharpIntroduction\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nicoara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\SummerPracticeWorshop\\CSharpIntroduction.Logic\\CSharpIntroduction.Logic.csproj": {
+              "projectPath": "D:\\SummerPracticeWorshop\\CSharpIntroduction.Logic\\CSharpIntroduction.Logic.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

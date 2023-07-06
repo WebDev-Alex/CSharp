@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SummerPracticeWorshop\\CSharpIntroduction\\CSharpIntroduction.csproj": {}
+  },
+  "projects": {
+    "D:\\SummerPracticeWorshop\\CSharpIntroduction.DataType\\CSharpIntroduction.DataType.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SummerPracticeWorshop\\CSharpIntroduction.DataType\\CSharpIntroduction.DataType.csproj",
+        "projectName": "CSharpIntroduction.DataType",
+        "projectPath": "D:\\SummerPracticeWorshop\\CSharpIntroduction.DataType\\CSharpIntroduction.DataType.csproj",
+        "packagesPath": "C:\\Users\\nicoara\\.nuget\\packages\\",
+        "outputPath": "D:\\SummerPracticeWorshop\\CSharpIntroduction.DataType\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nicoara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SummerPracticeWorshop\\CSharpIntroduction.Logic\\CSharpIntroduction.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SummerPracticeWorshop\\CSharpIntroduction.Logic\\CSharpIntroduction.Logic.csproj",
+        "projectName": "CSharpIntroduction.Logic",
+        "projectPath": "D:\\SummerPracticeWorshop\\CSharpIntroduction.Logic\\CSharpIntroduction.Logic.csproj",
+        "packagesPath": "C:\\Users\\nicoara\\.nuget\\packages\\",
+        "outputPath": "D:\\SummerPracticeWorshop\\CSharpIntroduction.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nicoara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\SummerPracticeWorshop\\CSharpIntroduction.DataType\\CSharpIntroduction.DataType.csproj": {
+                "projectPath": "D:\\SummerPracticeWorshop\\CSharpIntroduction.DataType\\CSharpIntroduction.DataType.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SummerPracticeWorshop\\CSharpIntroduction\\CSharpIntroduction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SummerPracticeWorshop\\CSharpIntroduction\\CSharpIntroduction.csproj",
+        "projectName": "CSharpIntroduction",
+        "projectPath": "D:\\SummerPracticeWorshop\\CSharpIntroduction\\CSharpIntroduction.csproj",
+        "packagesPath": "C:\\Users\\nicoara\\.nuget\\packages\\",
+        "outputPath": "D:\\SummerPracticeWorshop\\CSharpIntroduction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nicoara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\SummerPracticeWorshop\\CSharpIntroduction.Logic\\CSharpIntroduction.Logic.csproj": {
+                "projectPath": "D:\\SummerPracticeWorshop\\CSharpIntroduction.Logic\\CSharpIntroduction.Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

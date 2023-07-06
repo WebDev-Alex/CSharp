@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CSharpIntroduction.Logic/1.0.0": {
+        "dependencies": {
+          "CSharpIntroduction.DataType": "1.0.0"
+        },
+        "runtime": {
+          "CSharpIntroduction.Logic.dll": {}
+        }
+      },
+      "CSharpIntroduction.DataType/1.0.0": {
+        "runtime": {
+          "CSharpIntroduction.DataType.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpIntroduction.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSharpIntroduction.DataType/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

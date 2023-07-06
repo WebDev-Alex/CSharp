@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	  <Company>DVSE GmbH</Company>
+	  <Copyright>Copyright © DVSE GmbH</Copyright>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CSharpIntroduction.DataType\CSharpIntroduction.DataType.csproj" />
+  </ItemGroup>
+
+</Project>
